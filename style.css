@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+    font-family: "DM Sans",sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: rgb(45, 45, 154);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.city-nav ul {
+    display: flex;
+    list-style: none;
+}
+.city-nav ul li a{
+color: white;
+text-decoration: none;
+/* margin-top: 10px;
+margin-bottom: 20px;
+margin-right: 20px */
+margin: 10px 20px;
+line-height: 2.2;
+
+}
+.logo {
+    margin-top: 22px;
+    margin-right: 100px;
+}
+.site-nav ul{
+    display: flex;
+    list-style: none;
+}
+.site-nav ul li a{
+    color: rgb(230, 220, 220);
+    text-decoration: none;
+/* margin-top: 10px;
+margin-bottom: 20px;
+margin-right: 20px */
+margin: 10px 20px;
+line-height: 2.2;
+}
+.ikorodu {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: #f3e6e6;
+    border: 1px solid;
+    padding: 5px 30px;
+    border-radius: 20px;
+
+}
+.ikorodu:hover {
+    background: red;
+}
